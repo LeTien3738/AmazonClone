@@ -18,6 +18,7 @@ class CartItem {
     );
   }
 
+
   Map<String, dynamic> toJson() {
     return {
       'product': product.toJson(),
